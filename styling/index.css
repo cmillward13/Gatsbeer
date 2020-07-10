@@ -1,0 +1,204 @@
+@font-face{ /*Header font*/
+    font-family: Broadway;
+    src: url("BROADW.TTF");
+}
+
+@font-face{ /*Paragraph font*/
+    font-family: Goth;
+    src: url("GOTHIC.TTF");
+}
+
+@font-face{ /*Paragraph font*/
+    font-family: GothI;
+    src: url("GOTHICI.TTF");
+}
+
+
+body{
+    background-image: url("body_home.jpg");
+    max-width: 100%;
+}
+
+head{
+    background-color: black;
+}
+
+.titleBar{
+    background-color: black;
+    opacity:.94;
+    z-index: -1;
+
+    /*IF CHANGED, CHANGE H1 FONT SIZE*/
+    height:20vmin;;
+    
+  
+    border-style: ridge;
+    border-color: wheat;
+    border-bottom-width: .5vmin;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+}
+
+h1{ /*Title*/
+
+   background-color:transparent;
+    
+   /*IF CHANGED, CHANGE TITLEBAR HEIGHT*/
+    font-size:10vmin;
+    font-family: Broadway;
+    color: whitesmoke;
+    
+    position: relative;
+    text-align: center;
+    margin: 5vmin;
+
+}
+
+h2{ /*Quote*/
+
+    font-size: 3.5vmin;
+    font-family: GothI;
+    color:lightgrey;
+    position: fixed;
+    text-align: right;
+    right:0;
+    top:13.5vmin;
+    margin: 2vmin;
+}
+
+.namesFormBackground{
+    /*DONT TOUCH*/
+
+    box-sizing: border-box;
+    height:55vmin;
+    width: 110vmin;
+    
+    background-color: black;
+    opacity: .9;
+
+    position:fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.namesForm{
+    /*DONT TOUCH*/
+    box-sizing: border-box;
+    height:55vmin;
+    width: 110vmin;
+
+    position:fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border-color: wheat;
+    border-style: solid;
+    border-width: .2vmin;
+}
+
+.namesForm p1{
+    color: rgb(180, 179, 179);
+    font-size: 6vmin;
+    font-family: Goth;
+    
+    border-bottom:solid ;
+    border-color: wheat;
+    border-width: .1vmin;
+
+    position: fixed;
+    padding-top:1vmin;
+    padding-left:0px;
+    padding-bottom:0px;
+
+    left:2vmin;
+
+    /* z-index: ; */
+}
+
+table {
+
+    /* background-color: ivory; */
+    width: 30vmin;
+
+    position: fixed;
+    left:2vmin;
+    top:10vmin;
+}
+
+table tr{
+    /* background-color: whitesmoke;
+    width: 30vmin;
+
+    color: black;
+    font-size: 3.2vmin;
+    font-family: Goth;
+
+    border-color: rgb(153, 110, 0);
+    border-width: .2vmin;
+    border-style: solid;
+
+    margin-top:0px;
+    margin-bottom: 0px;
+
+    padding-left:2vmin;
+
+ */
+
+    line-height: 1.5vmin;
+}
+
+input[type="text"] {
+    background-color: whitesmoke;
+    width: 30vmin;
+
+    color: black;
+    font-size: 3.2vmin;
+    font-family: Goth;
+
+    border-color: rgb(153, 110, 0);
+    border-width: .2vmin;
+    border-style: solid;
+
+    margin-top:0px;
+    margin-bottom: 0px;
+
+    padding-left:2vmin;
+}
+
+::placeholder{
+    color:lightgrey;
+}
+
+#play{
+    font-family: Goth;
+    font-size:2.2vmin;
+    color:black;
+    
+    cursor:pointer ;
+    
+    position: fixed;
+    bottom:2.5vmin;
+    right:2.5vmin;
+
+}
+
+#Quan{
+    color:ivory;
+    font-family: Goth;
+    background-color: black;
+    text-align: center;
+    border-style:none ;
+
+    width:5vmin;
+    position: fixed;
+    top:2.5vmin;
+    right:2.5vmin;
+}
