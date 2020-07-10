@@ -58,6 +58,7 @@ body{
 }
 
 .gameCard input{ /*Button*/
+    -webkit-appearance: none;
     
     font-size: 4vmin;
     font-family: 'Times New Roman', Times, serif;
