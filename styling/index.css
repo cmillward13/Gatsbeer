@@ -196,6 +196,8 @@ input[type="text"] {
 }
 
 #Quan{
+    -webkit-appearance: none;
+    
     color:ivory;
     font-family: Goth;
     background-color: black;
