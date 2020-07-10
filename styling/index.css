@@ -178,6 +178,7 @@ input[type="text"] {
 }
 
 #play{
+    -webkit-appearance: none;
     font-family: Goth;
     font-size:2.2vmin;
     color:black;
